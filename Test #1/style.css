@@ -1,0 +1,39 @@
+body {
+    font: 10pt Arial, Helvetica, sans-serif; 
+    background:white ; 
+   }
+   h2 {
+    font-size: 2.1em; 
+    color: #070204; 
+    margin-top: 0;
+    margin-left: 250px 
+   }
+   #container {
+    width: 900px; 
+    margin: 0 auto; 
+    background: white; 
+   }
+   #header {
+    font-size: 2.2em; 
+    text-align: center; 
+    padding: 5px; 
+    background: black; 
+    color: #ffe; 
+   }
+   #sidebar {
+    margin-top: 10px; 
+    width: 110px; 
+    padding: 0 10px;
+    float: left; 
+   }
+   #content {
+    margin-left: 130px; 
+    padding: 10px; 
+    background: #fff; 
+   }
+   #footer {
+    background: black; 
+    color: #fff; 
+    padding: 12px;  
+    clear: left; 
+   }

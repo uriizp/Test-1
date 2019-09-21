@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test#2</title>
+
+</head>
+<body>
+
+	<script type="text/javascript">
+		var m = [ {name: 'Jonny Walker',  birthdate: '1995-12-17'}, {name: 'Andrew',  birthdate: '2001-10-29'}
+		 ];
+		function searchByName (name, m) {
+			var mas = [];
+			for(let i = 0; i < m.length; i++) {
+				if(m[i].name.indexOf(name) != -1) {
+						mas.push(m[i]);
+				}
+			}
+			return mas;
+		 }
+		 console.log( searchByName("e", m) ); 
+		
+		
+	</script>
+
+</body>
+</html>
